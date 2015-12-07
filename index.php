@@ -2,7 +2,7 @@
 <html>
 <head>
 	<link rel="stylesheet" href="css/main.css"> 
-    <link rel="stylesheet" href="css/media-queries.css">
+    	<link rel="stylesheet" href="css/media-queries.css">
 	<title>Mega Menu</title>
 </head>
 <body>
