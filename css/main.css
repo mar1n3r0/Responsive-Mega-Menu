@@ -1,0 +1,245 @@
+body {
+	margin: 0;
+}
+#menu {
+    list-style:none;
+    width:940px;
+    margin:auto;
+    height:45px;
+ 
+    /* Background color and gradients */
+     
+    background: #2D2D2F;
+ 	-webkit-padding-start: 0;
+    -moz-box-shadow:inset 0px 0px 1px #edf9ff;
+    -webkit-box-shadow:inset 0px 0px 1px #edf9ff;
+    box-shadow:inset 0px 0px 1px #edf9ff;
+}
+
+/* Drop Down Content Stylings */
+
+#menu p, #menu h2, #menu h3, #menu ul li {
+    font-family:Droid Sans, Open Sans, sans-serif;
+    line-height:21px;
+    font-size:12px;
+    text-align:center;
+    text-shadow: 1px 1px 1px #FFFFFF;
+}
+#menu h2 {
+    font-size:21px;
+    font-weight:400;
+    letter-spacing:-1px;
+    margin:7px 0 14px 0;
+    padding-bottom:14px;
+    border-bottom:1px solid #666666;
+}
+#menu h3 {
+    font-size:15px;
+    font-weight: normal;
+    color: #232326;
+}
+#menu p {
+    line-height:18px;
+    margin:0 0 10px 0;
+    text-align: center;
+}
+#menu li {
+    float:left;
+    display:block;
+    text-align:center;
+    position:relative;
+    height: 100%;
+    width: 14.285%;
+    border:none;
+}
+#menu li ul {
+    list-style-type:none;
+    padding:0;
+    margin:0 0 12px 0;
+}
+#menu li ul li {
+    font-size:12px;
+    line-height:24px;
+    position:relative;
+    text-shadow: 1px 1px 1px #ffffff;
+    padding:0;
+    margin:0;
+    float:none;
+    text-align:left;
+    width:130px;
+}
+#menu li ul li:hover {
+    background:none;
+    border:none;
+    padding:0;
+    margin:0;
+}
+#menu li:hover {
+     
+    /* Background color and gradients */
+     
+    background-color: #232326;
+     
+}
+#menu li:hover div a {
+    font-size:12px;
+    color:#F68A1F;
+}
+#menu li:hover div a:hover {
+    color:#F68A1F;
+}
+#menu li a {
+    font-family:Droid Sans, Open Sans, sans-serif;
+    font-size:16px; 
+    padding-top: 14px;
+    color: #FEFEFF;
+    display:block;
+    text-decoration:none;
+    text-shadow: 1px 1px 1px #000;
+}
+#menu li:hover a {
+
+    color:#FEFEFF;
+    text-shadow: 1px 1px 1px #FFFFFF;
+}
+
+.nav-menu li > a:only-child:after {
+    content: '';
+}
+
+/* Drop Down */
+
+.dropdown_1column, 
+.dropdown_2columns, 
+.dropdown_3columns, 
+.dropdown_4columns,
+.dropdown_5columns, .banner {
+    margin:4px auto;
+    position:absolute;
+    left:-999em; /* Hides the drop down */
+    text-align:left;
+    padding:10px 5px 10px 5px;
+    border-top:none;
+     
+    /* Gradient background */
+    background:#EFF0F3;
+}
+.col_4 {
+    display:inline;
+    float: left;
+    position: relative;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+/* Columns */
+
+.col_1,
+.col_2,
+.col_3,
+.col_4,
+.col_5,
+.banner {
+    display:inline;
+    float: left;
+    position: relative;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.col_1 {
+	width:155px;
+	background-color: #fff;
+}
+.col_1 header {
+	height: 220px;
+}
+.col_2 {width:270px;}
+.col_3 {width:410px;}
+.col_4 {width:550px;}
+.col_5 {width:690px;}
+}
+.dropdown_1column {width: 140px;}
+.dropdown_2columns {width: 280px;}
+.dropdown_3columns {width: 420px;}
+.dropdown_4columns {width: 660px;}
+.dropdown_5columns {width: 700px;}
+
+#menu li:hover .dropdown_1column, 
+#menu li:hover .dropdown_2columns, 
+#menu li:hover .dropdown_3columns,
+#menu li:hover .dropdown_4columns,
+#menu li:hover .dropdown_5columns,
+#menu li:hover .banner {
+    left: 1px;
+    top:auto;
+    margin-top: -13px;
+    z-index: -999;
+}
+#menu li:hover .caret {
+    display: inline;
+}
+.caret {
+	display: none;
+	max-width: 15%;
+	margin-top: 13px;
+}
+.promo {
+	display: block;
+	padding-top: 5px!important;
+}
+.bonus {
+	display: block;
+	zoom: 0.3;
+	margin-left: auto;
+    margin-right: auto;
+}
+hr {
+	color: #232326;
+	border-width: medium;
+    border-style: solid;
+    width: 75%;
+}
+
+/* Dropdown inner menu */
+.inner-menu {
+	list-style-position: inside;
+	padding: 15px!important;
+	margin-bottom: 50px!important;
+}
+.inner-menu li {
+	font-size: 14px!important;
+	font-weight: normal;
+	color: #F68A1F;
+	display: list-item!important;
+}
+.inner-menu li:before {
+    content:"· ";
+    font-size:20px;
+    vertical-align:top;
+    line-height:20px;
+}
+.inner-menu li a {
+	display: inline!important;
+	font-size: 16px!important;
+	font-weight: lighter!important;
+}
+.thumb {
+	display: block;
+	border: 10px solid #E2E2E1;
+	zoom: 0.3;
+	margin: 50px auto;
+}
+
+/*Special formatting for inner-menu links */
+
+#special {
+	display: block;
+	margin-top: -20px;
+	color: #232326!important;
+	font-size: 14px!important;
+}
+#special img {
+	zoom: 0.3;
+	margin-left: 50px;
+	margin-right: 20px;
+}

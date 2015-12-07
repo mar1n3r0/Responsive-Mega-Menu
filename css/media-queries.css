@@ -1,0 +1,116 @@
+@media only screen and (max-width:1024px) {
+    #menu {
+        width: 800px;
+    }
+    #menu li {
+        width: 12%;
+        margin-right: 15px;
+    }
+    #menu li:hover .dropdown_1column, 
+#menu li:hover .dropdown_2columns, 
+#menu li:hover .dropdown_3columns,
+#menu li:hover .dropdown_4columns,
+#menu li:hover .dropdown_5columns,
+#menu li:hover .banner {
+    left: 0;
+    top:auto;
+    margin-top: -13px;
+    z-index: -999;
+}
+    .inner-menu li a {
+        font-size: 14px!important;
+    }
+    .dropdown_4columns {width: 569px;}
+    .col_1 { width: 130px;}
+    .bonus {
+        zoom: 0.258;
+    }
+@media only screen and (max-width:768px) {
+    #menu {
+        width: 600px;
+    }
+    #menu li {
+        width: 11.5%;
+        margin-right: 15px;
+    }
+    #menu li ul li {
+        margin-left: 6px;
+    }
+    #menu li ul li:hover {
+        margin-left: 6px;
+    }
+    #menu li:hover .dropdown_4columns {
+        margin-top: -10px;
+    }
+    .inner-menu li a {
+        font-size: 16px!important;
+    }
+    .dropdown_4columns {width: 422px;}
+    .col_1 { width: 200px; margin-bottom: 50px;}
+    .bonus {
+        zoom: 0.19;
+    }
+    #special {
+        padding: 10px!important;
+    }
+    .thumb {
+        zoom: 0.4;
+    }
+    .col_1 header {
+        height: 200px;
+    }
+}
+@media only screen and (max-width:640px) {
+    body {
+        background-color: #2D2D2F;
+    }
+    #menu {
+        position: relative;
+        height: auto;
+        overflow: hidden;
+    }
+    #menu li {
+        top: 0;
+        left: 0;
+        float: left;
+        position: relative;
+        width: 100%;
+        margin: 0 auto;
+        padding: 15px;
+    }
+    #menu li a {
+        padding: 10px;
+    }
+    #menu li ul li {
+        margin: 0 20px;
+    }
+    #menu li.drop:hover .dropdown_4columns {
+        position: relative;
+        float: left;
+        top: 0;
+        left: -15px;
+        width: 98.5%;
+        z-index: 9999;
+    }
+    #menu li:hover .banner {
+        top: 10px;
+    }
+    .col_1 {
+        top: 10px;
+        width: 285px;
+    }
+    .bonus {
+        zoom: 0.267;
+    }
+    .thumb {
+        zoom: 0.5;
+    }
+    #special {
+        margin: -20px 25px;
+        padding: 0!important;
+    }
+    .promo {
+    padding: 0!important;
+    }
+
+}
