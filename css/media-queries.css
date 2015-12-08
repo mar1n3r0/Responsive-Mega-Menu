@@ -3,8 +3,7 @@
         width: 800px;
     }
     #menu li {
-        width: 12%;
-        margin-right: 15px;
+        width: 14.25%;
     }
     #menu li:hover .dropdown_1column, 
 #menu li:hover .dropdown_2columns, 
@@ -25,13 +24,15 @@
     .bonus {
         zoom: 0.258;
     }
+    #special {
+        margin: -20px -10px;
+    } 
 @media only screen and (max-width:768px) {
     #menu {
         width: 600px;
     }
     #menu li {
-        width: 11.5%;
-        margin-right: 15px;
+        width: 14.25%;
     }
     #menu li ul li {
         margin-left: 6px;
@@ -51,7 +52,7 @@
         zoom: 0.19;
     }
     #special {
-        padding: 10px!important;
+        margin: -30px 5px;
     }
     .thumb {
         zoom: 0.4;
@@ -106,7 +107,7 @@
         zoom: 0.5;
     }
     #special {
-        margin: -20px 25px;
+        margin: -35px 25px;
         padding: 0!important;
     }
     .promo {
